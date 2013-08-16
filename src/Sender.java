@@ -62,7 +62,7 @@ public class Sender extends JPanel {
 		scrollPane = new JScrollPane(message);
 		pan1.setLayout(new FlowLayout());
 		pan2.setLayout(new FlowLayout());
-		scrollPane.setPreferredSize(new Dimension((((rez ==1)? 500:350)), (((rez ==1)? 300:225))));
+		scrollPane.setPreferredSize(new Dimension((((rez ==1)? 500:350)), (((rez ==1)? 300:225)))); //(((rez ==1)? 1000:70)) checks what screen resolution is
 		pan1.add(scrollPane);
 		pan2.add(sendButton);
 		add(pan1, BorderLayout.NORTH);
